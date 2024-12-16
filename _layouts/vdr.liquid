@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+  
+  <h2>Filter by:</h2>
+  <h3>Age Range Served:</h3>
+  <p>
+  {% for range in site.tags %}
+    <a href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
+      {{ range[0] | replace: "_", " "}}
+    </a>
+    {% unless forloop.last %}
+      &nbsp; &middot; &nbsp;
+    {% endunless %}
+  {% endfor %}
+  </p>
+
+  <h3>Service Type:</h3>
+  <p>
+  {% for type in site.categories %}
+    <a href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
+      {{ type[0] | replace: "_", " "}}
+    </a>
+    {% unless forloop.last %}
+      &nbsp; &middot; &nbsp;
+    {% endunless %}
+  {% endfor %}
+  </p>
+
+  {% include vdr_list.liquid input_posts=site.posts %}
+</div>
