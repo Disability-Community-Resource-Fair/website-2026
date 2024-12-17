@@ -23,11 +23,13 @@ title: Home
     <h1 class="post-title text-center">
       Welcome!
     </h1>
-    <p>Probably should start with a mission statment here.</p>
-    <h1 class="post-title">Event at a Glance</h1>
+    <p>The second annual Disability Community Resource Fair is an event designed to help families discover and connect to local services in the area. The event will include family-friendly activities and a community resource fair featuring local service providers.</p>
+    <h1 class="post-title text-center">Event Details</h1>
     <ul class="list-unstyled">
-      <li><b>What:</b> Disability related resources and info</li>
-      <li><b>When:</b> 1-2pm ... time and date...</li>
+      <li><b>What:</b> Disability related resources and information</li>
+      <li><b>When:</b> Saturday, March 22, 2025 from 10am to 1pm</li>
+      <li><b>Where:</b> Mechanicsburg Middle School 1750 S Market St, Mechanicsburg, PA 17055</li>
+      <li><b>Why:</b> Its a fun way to connect with your local community and learn about available resources!</li>
     </ul>
     <element class="sr-only">
     Hi screen-reader user! You found an easter egg! This text does not show up visually on the website. We are so glad you are here
