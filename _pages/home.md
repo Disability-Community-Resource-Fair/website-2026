@@ -41,7 +41,7 @@ pagination:
 <div class="post">
   <header class="post-header text-center">
     <h1 class="post-title">
-      <span>Welcome! </span>
+      Welcome!
     </h1>
   </header>
   <p class="home-body">Probably should start with a mission statment here.</p>
