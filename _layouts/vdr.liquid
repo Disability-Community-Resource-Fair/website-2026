@@ -11,30 +11,33 @@ layout: default
     {% endif %}
   </header>
   
-  <h2>Filter by:</h2>
-  <h3>Age Range Served:</h3>
-  <p>
-  {% for range in site.tags %}
-    <a href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
-      {{ range[0] | replace: "_", " "}}
-    </a>
-    {% unless forloop.last %}
-      &nbsp; &middot; &nbsp;
-    {% endunless %}
-  {% endfor %}
-  </p>
+  <div>
+    <h3 data-toc-skip>Age Range Served:</h3>
+    <p>
+    {% for range in site.tags %}
+      <a href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
+        {{ range[0] | replace: "_", " "}}
+      </a>
+      {% unless forloop.last %}
+        &nbsp; &middot; &nbsp;
+      {% endunless %}
+    {% endfor %}
+    </p>
 
-  <h3>Service Type:</h3>
-  <p>
-  {% for type in site.categories %}
-    <a href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
-      {{ type[0] | replace: "_", " "}}
-    </a>
-    {% unless forloop.last %}
-      &nbsp; &middot; &nbsp;
-    {% endunless %}
-  {% endfor %}
-  </p>
+    
+    <h3 data-toc-skip>Service Type:</h3>
+    <p>
+    {% for type in site.categories %}
+      <a href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
+        {{ type[0] | replace: "_", " "}}
+      </a>
+      {% unless forloop.last %}
+        &nbsp; &middot; &nbsp;
+      {% endunless %}
+    {% endfor %}
+    </p>
+  </div>
+
 
   {% include vdr_list.liquid input_posts=site.posts %}
 </div>

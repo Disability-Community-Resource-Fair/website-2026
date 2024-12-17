@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const filterItems = (searchTerm, list_selctor, list_item) => {
     document.querySelectorAll(`${list_selctor}`).forEach((element) => element.classList.remove("unloaded"));
 
+    if (!searchTerm) return;
+
     // highlight-search-term
     if (CSS.highlights) {
       const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: `${list_selctor} > ${list_item}` });
@@ -50,12 +52,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // });
   };
 
-  const updateInputField = () => {
-    const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    document.getElementById("vendorsearch").value = hashValue;
-    // filterItems(hashValue, "#toc-sidebar > .nav", "li");
-    filterItems(hashValue, ".vendor_list", "div");
-  };
+  // const updateInputField = () => {
+  //   const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+  //   document.getElementById("vendorsearch").value = hashValue;
+  //   filterItems(hashValue, "#toc-sidebar > .nav", "li");
+  //   filterItems(hashValue, ".vendor_list", "div");
+  // };
 
   // Sensitive search. Only start searching if there's been no input for 300 ms
   let timeoutId;
@@ -71,5 +73,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
-  updateInputField(); // Update filter when page loads
+  // updateInputField(); // Update filter when page loads
 });
