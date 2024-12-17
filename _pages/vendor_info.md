@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 permalink: /vendor-information/
 title: Information for Vendors
-nav: true
-nav_order: 2
 ---
 <div class="post">
   <header class="post-header text-center">
