@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Capital Area Employment 1st Coalition
-website: https://capitalareaemp1st.org/
+website: capitalareaemp1st.org/
 tags: Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Transitioning_Youth_and_Adults Job_Resources
 address: 

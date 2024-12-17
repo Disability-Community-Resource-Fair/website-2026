@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spectrum Friends
-website: https://www.facebook.com/spectrumfriends/
+website: www.facebook.com/spectrumfriends/
 tags: Post_Secondary_(High_School_and_Beyond)
 categories: Social,_Recreational,_Fitness Schools,_Educational_Programs,_Advocacy
 address: 26 N Market St, Mechanicsburg, PA 17055

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Center for Community Resources
-website: https://www.ccrinfo.org/
+website: www.ccrinfo.org/
 tags: Ages_Birth-3 Early_Intervention_(Ages_3-5) Elementary_(Grades_K-6) Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Schools,_Educational_Programs,_Advocacy Information,_Access_to_Additional_Services
 address: 212-214 S. Main Street, Suite 625, Butler, PA 16001

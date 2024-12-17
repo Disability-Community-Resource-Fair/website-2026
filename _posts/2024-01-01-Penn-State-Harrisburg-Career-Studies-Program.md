@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Penn State Harrisburg Career Studies Program
-website: https://harrisburg.psu.edu/career-studies-program
+website: harrisburg.psu.edu/career-studies-program
 tags: Post_Secondary_(High_School_and_Beyond)
 categories: Transitioning_Youth_and_Adults Schools,_Educational_Programs,_Advocacy
 address: Penn State Harrisburg Campus- Middletown PA
