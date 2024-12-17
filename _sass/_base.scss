@@ -1357,6 +1357,12 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-body .home_body{
-  font-size: 1.5rem;
+body .post article {
+  font-size: 1.25rem;
+}
+
+body .post article>p {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }

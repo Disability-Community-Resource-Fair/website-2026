@@ -3,14 +3,6 @@ layout: page
 permalink: /vendor-information/
 title: Information for Vendors
 ---
-<div class="post">
-  <header class="post-header text-center">
-    <h1 class="post-title">
-      Information for Vendors
-    </h1>
-  </header>
-</div>
-
 <div class="vendor-buttons btn-toolbar justify-content-center my-3">
   <a href="https://forms.gle/uH2QFZQwvccxvC2r8" class="btn btn-secondary">Register Here</a>
 </div>

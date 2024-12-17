@@ -1,6 +1,9 @@
 {% if site.search_enabled %}
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
-  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <ninja-keys
+    hideBreadcrumbs
+    noAutoLoadMdIcons
+    placeholder="Type to start searching"></ninja-keys>
   <script>
     let searchTheme = determineComputedTheme();
     const ninjaKeys = document.querySelector('ninja-keys');
@@ -49,7 +52,7 @@
                   id: "dropdown-{{ title | slugify }}",
                   title: "{{ title | truncatewords: 13 }}",
                   description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
-                  section: "Dropdown",
+                  section: title,
                   handler: () => {
                     window.location.href = "{{ url | relative_url }}";
                   },
@@ -84,7 +87,7 @@
             title: "{{ title | truncatewords: 13 }}",
           {% endif %}
           description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
-          section: "Posts",
+          section: "Vendors",
           handler: () => {
             {% if post.redirect == blank %}
               window.location.href = "{{ post.url | relative_url }}";
