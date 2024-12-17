@@ -1138,17 +1138,20 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
-  overflow-y: scroll;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
-  max-height: 100vh;
 }
 
-#toc-sidebar::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
-}
 #toc-sidebar > ul {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 85vh;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  display: block;
+  padding-bottom: 10px;
+}
+
+#toc-sidebar> ul::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 .echarts {
