@@ -24,39 +24,9 @@ pagination:
 {% if (blog_name_size > 0 or blog_description_size > 0) %}
 
 <div class="header-bar">
-  <img src="{{ site.logo | prepend: '/assets/img/' | relative_url | bust_file_cache }}" style="height:200px"/>
+  <img src="{{ site.logo | prepend: '/assets/img/' | relative_url | bust_file_cache }}" style="height:200px" alt="Logo is a yellow circle with a light blue ring around it containing the words Disability Community Resource Fair. The center shows a brown male hand giving an information document to a caucasian female hand wearing a red bracelet."/>
   <h1>{{ site.blog_name }}</h1>
   <h2>{{ site.blog_description }}</h2>
-</div>
-{% endif %}
-
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0
-%}
-
-<div class="tag-category-list">
-  <ul class="p-0 m-0">
-    {% for tag in site.display_tags %}
-    <li>
-      <i class="fa-solid fa-hashtag fa-sm"></i> <a
-        href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag | replace: "_"," " }}</a>
-    </li>
-    {% unless forloop.last %}
-    <p>&bull;</p>
-    {% endunless %}
-    {% endfor %}
-    {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-    <p>&bull;</p>
-    {% endif %}
-    {% for category in site.display_categories %}
-    <li>
-      <i class="fa-solid fa-tag fa-sm"></i> <a
-        href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category | replace: "_"," " }}</a>
-    </li>
-    {% unless forloop.last %}
-    <p>&bull;</p>
-    {% endunless %}
-    {% endfor %}
-  </ul>
 </div>
 {% endif %}
 
@@ -65,3 +35,17 @@ pagination:
   <a href="/vendors/register" class="btn btn-secondary">Register as a Vendor</a>
   <a href="/register" class="btn btn-success">Signup for Notifications</a>
 </div>
+
+<hr/>
+<div class="post">
+ <h2>Welcome!</h2>
+ <h3>Welcome!</h3>
+  <element class="sr-only">
+  Hi screen-reader user! You found an easter egg! This text does not show up visually on the website. We are so glad you are here
+</div>
+
+<div class="post">
+    
+      
+    </element>
+
