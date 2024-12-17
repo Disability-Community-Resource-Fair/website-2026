@@ -30,22 +30,27 @@ pagination:
 </div>
 {% endif %}
 
-<div class="vendor-buttons">
+<div class="vendor-buttons btn-toolbar justify-content-center my-2">
   <a href="/vendors" class="btn btn-primary">View Vendors</a>
-  <a href="/vendors/register" class="btn btn-secondary">Register as a Vendor</a>
   <a href="/register" class="btn btn-success">Signup for Notifications</a>
+  <a href="/vendors/register" class="btn btn-secondary">Vendor Registration</a>
+  <a href="/sponsor" class="btn btn-info">Sponsor Registration</a>
 </div>
 
-<hr/>
+<hr class="mt-0"/>
 <div class="post">
- <h2>Welcome!</h2>
- <h3>Welcome!</h3>
+  <header class="post-header text-center">
+    <h1 class="post-title">
+      <span>Welcome! </span>
+    </h1>
+  </header>
+  <p class="home-body">Probably should start with a mission statment here.</p>
+  <h1 class="post-title text-center">Event at a Glance</h1>
+  <ul class="list-unstyled home_body">
+    <li><b>What:</b> Disability related resources and info</li>
+    <li><b>When:</b> 1-2pm ... time and date...</li>
+  </ul>
   <element class="sr-only">
   Hi screen-reader user! You found an easter egg! This text does not show up visually on the website. We are so glad you are here
+  </element>
 </div>
-
-<div class="post">
-    
-      
-    </element>
-
