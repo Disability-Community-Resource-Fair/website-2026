@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Leg Up Farm
-website: www.legupfarm.org/
+website: www.legupfarm.org
 tags: Ages_Birth-3 Early_Intervention_(Ages_3-5) Elementary_(Grades_K-6) Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Theraputic_Services
 address: 4880 North Sherman Street, Mt. Wolf, PA 17347

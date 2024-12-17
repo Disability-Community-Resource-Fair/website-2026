@@ -1140,8 +1140,18 @@ nav[data-toggle="toc"] {
   z-index: 1;
 }
 
-.home-body {
-  font-size:1.75rem
+#toc-sidebar > ul {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 85vh;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  display: block;
+  padding-bottom: 10px;
+}
+
+#toc-sidebar> ul::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 .echarts {

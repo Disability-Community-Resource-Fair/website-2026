@@ -25,7 +25,7 @@
             &nbsp; &middot; &nbsp;
           {% endif %}
           {% if post.email %}
-            <i class="fa-solid fa-envelope fa-sm"></i>&nbsp;<a href="mailto:{{post.email}}">{{post.email}}</a>
+            <i class="fa-solid fa-envelope fa-sm"></i>&nbsp;<a href="mailto:{{post.email | encode_email}}">{{post.email}}</a>
           {% endif %}
           </p>
           {% if post.address %}
