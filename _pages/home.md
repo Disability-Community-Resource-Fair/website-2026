@@ -44,7 +44,7 @@ pagination:
       Welcome!
     </h1>
   </header>
-  <p class="home-body">Probably should start with a mission statment here.</p>
+  <p class="home_body">Probably should start with a mission statment here.</p>
   <h1 class="post-title text-center">Event at a Glance</h1>
   <ul class="list-unstyled home_body">
     <li><b>What:</b> Disability related resources and info</li>
