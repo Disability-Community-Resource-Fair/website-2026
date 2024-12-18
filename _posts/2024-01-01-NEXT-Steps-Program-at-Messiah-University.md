@@ -2,8 +2,8 @@
 layout: post
 title: NEXT Steps Program at Messiah University
 website: messiah.edu/nextsteps
-tags: Post_Secondary_(High_School_and_Beyond) Religious
-categories: Schools,_Educational_Programs,_Advocacy 
+tags: Post_Secondary_(High_School_and_Beyond)
+categories: Schools,_Educational_Programs,_Advocacy Religious 
 address: 1 University Ave. Mechanicsburg PA 17055
 phone_number: (717) 766-2511 ext. 7056
 email: nextsteps@messiah.edu
