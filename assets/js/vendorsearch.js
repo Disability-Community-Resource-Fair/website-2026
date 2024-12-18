@@ -3,6 +3,8 @@ import { highlightSearchTerm } from "./highlight-search-term.js";
 document.addEventListener("DOMContentLoaded", function () {
   // actual vendorsearch logic
   const filterItems = (searchTerm, list_selctor, list_item) => {
+    
+      
     document.querySelectorAll(`${list_selctor}>${list_item}`).forEach((element) => {
       element.classList.remove("unloaded");
       element.querySelector('h3').removeAttribute('data-toc-skip');
@@ -18,16 +20,26 @@ document.addEventListener("DOMContentLoaded", function () {
     if (CSS.highlights) {
       const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: `${list_selctor}>${list_item}` });
       
-      if (!nonMatchingElements) {
-        return;
+      if (nonMatchingElements) {
+        nonMatchingElements.forEach((element) => {
+          element.classList.add("unloaded");
+          element.querySelector('h3').setAttribute('data-toc-skip', '');
+        });
       }
-      nonMatchingElements.forEach((element) => {
-        element.classList.add("unloaded");
-        element.querySelector('h3').setAttribute('data-toc-skip', '');
-      });
-      const sidebar = $("#toc-sidebar");
+      
+      const navSelector = "#toc-sidebar";
+      const sidebar = $(navSelector);
       sidebar.empty();
+      sidebar.removeAttr('data-toggle');
+      // Toc.init({
+      //   '$nav':sidebar,
+      //   // '$scope': document.querySelector('.vendor_list')
+      // });
       Toc.init(sidebar);
+      $("body").scrollspy({
+        target: navSelector,
+      });
+      
 
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
