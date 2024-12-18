@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Vendor List
 ---
 <div>
   <header>
@@ -10,31 +11,31 @@ layout: default
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
   </header>
-  
+
   <div>
     <h3 data-toc-skip>Age Range Served:</h3>
     <p>
-    {% for range in site.tags %}
-      <a href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
-        {{ range[0] | replace: "_", " "}}
-      </a>
-      {% unless forloop.last %}
-        &nbsp; &middot; &nbsp;
-      {% endunless %}
-    {% endfor %}
+      {% for range in site.tags %}
+        <a href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
+          {{ range[0] | replace: "_", " " }}
+        </a>
+        {% unless forloop.last %}
+          &nbsp; &middot; &nbsp;
+        {% endunless %}
+      {% endfor %}
     </p>
 
-    
+
     <h3 data-toc-skip>Service Type:</h3>
     <p>
-    {% for type in site.categories %}
-      <a href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
-        {{ type[0] | replace: "_", " "}}
-      </a>
-      {% unless forloop.last %}
-        &nbsp; &middot; &nbsp;
-      {% endunless %}
-    {% endfor %}
+      {% for type in site.categories %}
+        <a href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
+          {{ type[0] | replace: "_", " " }}
+        </a>
+        {% unless forloop.last %}
+          &nbsp; &middot; &nbsp;
+        {% endunless %}
+      {% endfor %}
     </p>
   </div>
 

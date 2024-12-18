@@ -3,19 +3,32 @@ import { highlightSearchTerm } from "./highlight-search-term.js";
 document.addEventListener("DOMContentLoaded", function () {
   // actual vendorsearch logic
   const filterItems = (searchTerm, list_selctor, list_item) => {
-    document.querySelectorAll(`${list_selctor}`).forEach((element) => element.classList.remove("unloaded"));
+    document.querySelectorAll(`${list_selctor}>${list_item}`).forEach((element) => {
+      element.classList.remove("unloaded");
+      element.querySelector('h3').removeAttribute('data-toc-skip');
+    } );
 
-    if (!searchTerm) return;
+    document.querySelectorAll(`${list_selctor}>${list_item} h3`).forEach((element) => {
+      element.removeAttribute('data-toc-skip');
+    });
+
+    // if (!searchTerm) return;
 
     // highlight-search-term
     if (CSS.highlights) {
-      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: `${list_selctor} > ${list_item}` });
+      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: `${list_selctor}>${list_item}` });
+      
       if (!nonMatchingElements) {
         return;
       }
       nonMatchingElements.forEach((element) => {
         element.classList.add("unloaded");
+        element.querySelector('h3').setAttribute('data-toc-skip', '');
       });
+      const sidebar = $("#toc-sidebar");
+      sidebar.empty();
+      Toc.init(sidebar);
+
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
       document.querySelectorAll(`${list_selctor} > ${list_item}`).forEach((element, index) => {
@@ -71,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 300);
   });
 
-  window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
+  // window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
   // updateInputField(); // Update filter when page loads
 });

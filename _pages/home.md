@@ -6,7 +6,7 @@ title: Home
 
 <div class="header-bar">
   <img src="{{ site.logo | prepend: '/assets/img/' | relative_url | bust_file_cache }}" style="height:200px" alt="Logo is a yellow circle with a light blue ring around it containing the words Disability Community Resource Fair. The center shows a brown male hand giving an information document to a caucasian female hand wearing a red bracelet."/>
-  <h1>{{ site.blog_name }}</h1>
+  <h1 style="font-size:4.5rem">{{ site.blog_name }}</h1>
   <h2>{{ site.blog_description }}</h2>
 </div>
 
