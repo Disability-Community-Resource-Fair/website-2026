@@ -7,7 +7,7 @@ title: Information for Vendors
   <a href="https://forms.gle/uH2QFZQwvccxvC2r8" class="btn btn-secondary">Register Here</a>
 </div>
 
- Please join us for our 2nd Annual Disability Community Resource Fair on March 22, 2025. This is a great opportunity to share your programs and services with Cumberland and surrounding counties families and community members. <b>Registration is free</b> and you will recieve confirmation once your organization is approved. You may also want to consider [becoming an sponsor](/sponsor-information) for the event.
+ Please join us for our 2nd Annual Disability Community Resource Fair on March 22, 2025. This is a great opportunity to share your programs and services with Cumberland and surrounding counties families and community members. <b>Registration is free</b> and you will recieve confirmation once your organization is approved. You may also want to consider [becoming an sponsor](/sponsor-information) for the event. March 11, 2025 is the deadline for vendors to be included in printed materials.
 
  <p><em>All vendors are asked to bring a small child-friendly activity for their tabletop to occupy children while their families visit your booth. </em></p>
 
