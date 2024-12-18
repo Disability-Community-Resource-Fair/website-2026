@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cumberland/Perry MH/IDD
-website: cumberlandcountypa.gov/
+website: cumberlandcountypa.gov
 tags: Ages_Birth-3 Early_Intervention_(Ages_3-5) Elementary_(Grades_K-6) Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Information,_Access_to_Additional_Services
 address: 1615 Ritner Highway Carlisle, PA 17013
