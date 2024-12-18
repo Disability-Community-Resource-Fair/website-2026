@@ -52,7 +52,7 @@
                   id: "dropdown-{{ child.title | slugify }}",
                   title: "{{ child.title | truncatewords: 13 }}",
                   description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
-                  section: "{{ p.title }}",
+                  section: "co",
                   handler: () => {
                     window.location.href = "{{ url | relative_url }}";
                   },
