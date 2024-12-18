@@ -5,7 +5,7 @@ title: Home
 ---
 
 <div class="header-bar">
-  <img src="{{ site.logo | prepend: '/assets/img/' | relative_url | bust_file_cache }}" style="height:200px" alt="Logo is a yellow circle with a light blue ring around it containing the words Disability Community Resource Fair. The center shows a brown male hand giving an information document to a caucasian female hand wearing a red bracelet."/>
+  <img src="{{ site.logo | prepend: '/assets/img/' | relative_url | bust_file_cache }}" class="mb-4" style="height:200px" alt="Logo is a yellow circle with a light blue ring around it containing the words Disability Community Resource Fair. The center shows a brown male hand giving an information document to a caucasian female hand wearing a red bracelet."/>
   <h1 style="font-size:4.5rem">{{ site.blog_name }}</h1>
   <h2>{{ site.blog_description }}</h2>
 </div>
@@ -13,7 +13,7 @@ title: Home
 <div class="vendor-buttons btn-toolbar justify-content-center my-2">
   <a href="/vendors" class="btn btn-primary">View Vendors</a>
   <a href="/register" class="btn btn-success">Signup for Notifications</a>
-  <a href="https://forms.gle/uH2QFZQwvccxvC2r8" class="btn btn-secondary">Vendor Registration</a>
+  <a href="/vendor-information" class="btn btn-secondary">Vendor Registration</a>
   <a href="/sponsor" class="btn btn-info">Sponsor Registration</a>
 </div>
 
@@ -30,9 +30,10 @@ title: Home
     <ul class="list-unstyled py-3">
       <li><b>What:</b> Disability related resources and information</li>
       <li><b>When:</b> Saturday, March 22, 2025 from 10am to 1pm</li>
-      <li><b>Where:</b> Mechanicsburg Middle School 1750 S Market St, Mechanicsburg, PA 17055</li>
+      <li><b>Where:</b> Mechanicsburg Middle School <a href="https://maps.google.com/?q=1750 S Market St, Mechanicsburg, PA 17055">1750 S Market St, Mechanicsburg, PA 17055</a></li>
       <li><b>Why:</b> Its a fun way to connect with your local community and learn about available resources!</li>
     </ul>
+    <p>Still have questions? Want to volunteer? <a href="/contact-us">Contact us here</a></p>
     <hr class="pb-2" />
     <h1 class="post-title text-center mb-2">
       A special thank you to our sponsors...

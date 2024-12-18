@@ -16,12 +16,9 @@ title: Vendor List
     <h3 data-toc-skip>Age Range Served:</h3>
     <p>
       {% for range in site.tags %}
-        <a href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
+        <a class="badge badge-secondary" href="{{ range[0] | slugify | prepend: '/vendors/tag/' | prepend: site.baseurl}}">
           {{ range[0] | replace: "_", " " }}
         </a>
-        {% unless forloop.last %}
-          &nbsp; &middot; &nbsp;
-        {% endunless %}
       {% endfor %}
     </p>
 
@@ -29,12 +26,9 @@ title: Vendor List
     <h3 data-toc-skip>Service Type:</h3>
     <p>
       {% for type in site.categories %}
-        <a href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
+        <a class="badge badge-secondary" href="{{ type[0] | slugify | prepend: '/vendors/category/' | prepend: site.baseurl}}">
           {{ type[0] | replace: "_", " " }}
         </a>
-        {% unless forloop.last %}
-          &nbsp; &middot; &nbsp;
-        {% endunless %}
       {% endfor %}
     </p>
   </div>
