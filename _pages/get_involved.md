@@ -2,7 +2,7 @@
 layout: page
 title: Get Involved
 nav: true
-nav_order: 2
+nav_order: 3
 dropdown: true
 children:
   - title: Vendor Info
