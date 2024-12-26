@@ -916,6 +916,12 @@ html.transition *:after {
     font-size: 0.875rem;
     margin-bottom: 0;
   }
+  
+  .post-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
 
   .post-tags {
     color: var(--global-text-color-light);
