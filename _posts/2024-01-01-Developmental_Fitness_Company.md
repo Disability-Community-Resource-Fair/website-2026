@@ -4,7 +4,7 @@ title: Developmental Fitness Company LLC
 website: developmentalfitness.com
 tags: Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond) 
 categories: Social,_Recreational,_Fitness Theraputic_Services
-address: PO Box 1025, North Wales, PA 19454 (Headquarters)
+address: PO Box 1025, North Wales, PA 19454
 phone_number: (215) 527-2475
 email: info@developmentalfitness.com
 ---

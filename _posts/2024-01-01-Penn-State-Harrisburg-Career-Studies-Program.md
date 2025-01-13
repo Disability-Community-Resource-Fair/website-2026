@@ -4,7 +4,7 @@ title: Penn State Harrisburg Career Studies Program
 website: harrisburg.psu.edu/career-studies-program
 tags: Post_Secondary_(High_School_and_Beyond)
 categories: Transitioning_Youth_and_Adults Schools,_Educational_Programs,_Advocacy
-address: Penn State Harrisburg Campus- Middletown PA
+address: Penn State Harrisburg Campus - Middletown PA
 phone_number: (717) 948-6636
 email: sem185@psu.edu
 ---

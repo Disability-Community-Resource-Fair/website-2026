@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connections Early Intervention and Supports
-website: www.connectionseias.com
+website: connectionseias.com
 tags: Ages_Birth-3 Early_Intervention_(Ages_3-5) Elementary_(Grades_K-6) Secondary_(Grades_7-12)
 categories: Social,_Recreational,_Fitness Schools,_Educational_Programs,_Advocacy Camps Theraputic_Services
 address: 1497 S. Queen St York, PA 17403

@@ -2,6 +2,7 @@
 layout: default
 permalink: /
 title: Home
+nav_order: 10
 ---
 
 <div class="header-bar">
@@ -21,7 +22,6 @@ title: Home
 
 <div class="vendor-buttons btn-toolbar justify-content-center my-2">
   <a href="/vendors" class="btn btn-primary">View Vendors</a>
-  <a href="/register" class="btn btn-success">Signup for Notifications</a>
   <a href="/vendor-information" class="btn btn-secondary">Vendor Registration</a>
   <a href="/sponsor" class="btn btn-info">Sponsor Registration</a>
 </div>
@@ -37,7 +37,7 @@ title: Home
         to local services in the area. The event will include family-friendly activities and a community resource fair
         featuring local service providers.</p>
       <h1 class="post-title text-center">Event Details</h1>
-      <ul class="list-unstyled py-3">
+      <ul class="list-unstyled">
         <li><b>What:</b> Disability related resources and information</li>
         <li><b>When:</b> Saturday, March 22, 2025 from 10am to 1pm</li>
         <li><b>Where:</b> Mechanicsburg Middle School <a href="https://maps.google.com/?q=1750 S Market St, Mechanicsburg, PA 17055">1750 S Market St, Mechanicsburg, PA 17055</a></li>
@@ -49,7 +49,10 @@ title: Home
       <h1 id="Email" class="post-title text-center">
         Sign Up for Email Reminders
       </h1>
-      <form>
+      <form
+      action="https://formcarry.com/s/Y80V8S1AIqX"
+      class="formcarryform"
+      enctype="multipart/form-data">
         <div class="form-group">
           <label for="email_input">Email address</label>
           <input
@@ -74,29 +77,33 @@ title: Home
       <h1 class="post-title text-center mb-2">
         A special thank you to our sponsors...
       </h1>
-      <h2 class="post-title text-center pt-3">
-        Gold Level
-      </h2>
-      <p class="pt-1"><em>ASERT <b>&middot;</b> United Methodist Church <b>&middot;</b> Additional Sponsors</em></p>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm justify-content-center">
-            <img
-              src="{{ 'Chan_Dev_Logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
-              style="width:100%" alt="Logo description goes here." />
-          </div>
-          <div class="col-sm">
-            <img
-              src="{{ 'Chan_Dev_Logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
-              style="width:100%" alt="Logo description goes here." />
-          </div>
-          <div class="col-sm">
-            <img
-              src="{{ 'Chan_Dev_Logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
-              style="width:100%" alt="Logo description goes here." />
+      <div class="post-subsection">
+        <h2 class="post-title text-center pt-3">
+          Gold Level
+        </h2>
+        <p class="pt-1"><em>ASERT <b>&middot;</b> United Methodist Church <b>&middot;</b> Additional Sponsors</em></p>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm justify-content-center">
+              <img
+                src="{{ 'Chan_Dev_Logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
+                style="width:100%" alt="Logo description goes here." />
+            </div>
+            <div class="col-sm">
+              <img
+                src="{{ 'Chan_Dev_Logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
+                style="width:100%" alt="Logo description goes here." />
+            </div>
+            <div class="col-sm">
+              <img
+                src="{{ 'Chan_Dev_Logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
+                style="width:100%" alt="Logo description goes here." />
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="post-subsection">
       <h2 class="post-title text-center pt-3">
         Silver Level
       </h2>
@@ -120,6 +127,9 @@ title: Home
           </div>
         </div>
       </div>
+      </div>
+
+      <div class="post-subsection">
       <h2 class="post-title text-center pt-3">
         Bronze Level
       </h2>
@@ -143,6 +153,7 @@ title: Home
           </div>
         </div>
       </div>
+    </div>
     </div>
   </article>
 </div>

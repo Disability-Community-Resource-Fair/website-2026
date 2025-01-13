@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Children's Dyslexia Center of Central PA
-website: www.childrensdyslexiaCenters.org
+website: childrensdyslexiacenters.org
 tags: Elementary_(Grades_K-6) Secondary_(Grades_7-12) 
 categories: Schools,_Educational_Programs,_Advocacy
-address: 2701 North Front Street (Rear) Harrisburg PA 17110
+address: 2701 North Front Street (Rear Entrance) Harrisburg PA 17110
 phone_number: (717) 238-4947
 email: Harrisburg@CDCINC.org
 ---

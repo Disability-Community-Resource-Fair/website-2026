@@ -1,10 +1,10 @@
 ---
 layout: post
 title: National Financial Network
-website: www.sykesfinancialsolutions.com
+website: sykesfinancialsolutions.com
 tags: Elementary_(Grades_K-6) Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Financial_Planning,_Insurance
-address: 150 S Warner Road King of Prussia, PA 19406
+address: 150 S. Warner Road King of Prussia, PA 19406
 phone_number: (215) 586-4671
 email: sean.sykes@natfin.net
 ---

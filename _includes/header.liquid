@@ -52,15 +52,6 @@
             {% endif %}
           {% endfor %}
 
-          <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-        </li>
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -128,7 +119,7 @@
                 onclick="openSearchModal()">
                 <span class="nav-link">
                   <i class="ti ti-search"></i>
-                  Search</span>
+                </span>
               </button>
             </li>
           {% endif %}

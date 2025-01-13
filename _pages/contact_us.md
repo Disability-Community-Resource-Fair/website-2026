@@ -7,10 +7,16 @@ nav_order: 4
 ---
 <p>Have a question? Feel free to reach out using the form below. If you would like to sign up for email reminders, you can do so <a href="/#Email">here</a>. Some event accessibility information is available <a href="/accessibility">here</a>.
 </p>
-<p class="mb-0 pb-0" >You can also reach out to us at the following:</p>
-<p class="py-0 my-0"><b>Email:</b> <a href="mailto:disabilityfair@gmail.com"> disabilityfair@gmail.com</a></p>
-<p class="pt-0"><b>Phone:</b> <a href="tel:3302679521">Google # Here</a></p>
 
+<p>
+  <b><i class='fa-solid fa-envelope'></i> Email </b><a href="mailto:disabilityfair@gmail.com"> disabilityfair@gmail.com</a>
+</p>
+<p>
+  <b><i class='fa-solid fa-phone'></i> Phone </b><a href="tel:3302679521">Google # Here</a>
+</p>
+<hr/>
+
+<h2>Contact Form</h2>
 <form
   action="https://formcarry.com/s/Y80V8S1AIqX"
   class="formcarryform"
@@ -82,9 +88,3 @@ nav_order: 4
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-<p>You can also reach out to us direcly at the following:
- <ul class="list-unstyled">
-      <li><b>Email:</b> Insert email here</li>
-      <li><b>Phone:</b> Insert Google Voice here</li>
- </ul>
-</p>

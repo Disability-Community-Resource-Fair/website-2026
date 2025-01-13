@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rejoicing Spirits - First United Methodist Church, Mechanicsburg
-website: www.fumchurch.com
+website: fumchurch.com
 tags: Elementary_(Grades_K-6) Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Religious
 address: 135 W. Simpson Street, Mechanicsburg, PA 17055

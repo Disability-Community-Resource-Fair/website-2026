@@ -16,7 +16,6 @@ The Capital Area Employment 1st Coalition is collaboration of individuals from t
 - Everyone has something to contribute. 
 - Having a real job and earning wages helps people have a lifestyle with value, choice and empowerment. 
 - Real jobs should be the first priority and preferred outcome for people with disabilities.
-- Employment is a win/win for everybody!"
+- Employment is a win/win for everybody!
 
 <!--more-->
-Out-of-excerpt

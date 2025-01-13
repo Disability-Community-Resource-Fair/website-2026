@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UCP Central PA
-website: www.ucpcentralpa.org
+website: ucpcentralpa.org
 tags: Ages_Birth-3 Post_Secondary_(High_School_and_Beyond)
 categories: Transitioning_Youth_and_Adults Theraputic_Services Job_Resources
 address: 55 Utley Drive, Camp Hill, PA  17011
