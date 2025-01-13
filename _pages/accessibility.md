@@ -9,7 +9,7 @@ nav_order: 3
 <div class="post accessibility">
     <article class="post-content">
     <p>
-        We strive to ensure that everyone is able to explore the fair and find resources helpful to them. Below is some information on the accessibility features that have been put in place. If you don't see the information you are looking for, or require additional accomodations, please reach out to us <a href="/contact">via our contact page</a>.
+        We strive to ensure that everyone is able to explore the fair and find resources helpful to them. Below is some information on the accessibility features that have been put in place. If you don't see the information you are looking for or require additional accomodations, please reach out to us via our <a href="/contact">contact page</a>.
     </p>
     <div class="card mb-3">
         <div class="row">
@@ -63,13 +63,13 @@ nav_order: 3
             </div>
             <div class="col-sm-8">
                 <div class="card-body">
-                    <h3 class="card-title">Additional Assistance</h3>
-                    <p class='card-text'>If there are any remaining questions on event accessibility information or any other topic, do not hesitate to reach out to us using the information here.</p>
-                    <p class='card-text'>During the event, volunteers will be present to help assist or answer any questions you may have. Volunteers can be identified by their __BRIGHT PINK TSHIRTS AND NEON JEANS__, as shown here.</p>
+                    <h3 class="card-title">Assistance at the Event</h3>
+                    <p class='card-text'>If you have any accessibility questions prior to the event, please contact us <a href="/contact-us">here</a> and we will answer as quickly as possible.</p>
+                    <p class='card-text'>If you have questions or require assistance during the event, volunteers will be present to help. Look for a volunteers wearing a__BRIGHT PINK TSHIRTS AND NEON JEANS__, as shown in the picture.</p>
                 </div>
             </div>
         </div>
     </div>
-    As a reminder, you can sign up for email notifications here.
+    As a reminder, you can sign up for email notifications <a href="/#Email">here</a>.
     </article>
 </div>
