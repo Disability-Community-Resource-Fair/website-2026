@@ -17,7 +17,7 @@ title: Information for Vendors
 - Announcement of participation on the Disability Community Resource Fair Facebook page
 - Opportunity to meet and connect with individuals in your community
 
-### Schedule for Paricipating Vendors:
+### Schedule for Participating Vendors:
 - Vendor Load-In: 8:30 a.m.
 - Event activities and Resource Fair will begin at 10 a.m.
 - Event concludes at 1 p.m.

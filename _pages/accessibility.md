@@ -35,7 +35,7 @@ nav_order: 3
                 <div class="card-body">
                     <h3 class="card-title">Service Animals</h3>
                     <p class="card-text">
-                        Service animals welcome at the disability resource fair. A service dog relief area is located __HERE HERE AND HERE__, while trash cans for animal-related matter can be found __HERE HERE AND HERE__. Feel free to stop by the welcome table for free poop bags, hand santizer, and dog biscuts.
+                        Service animals welcome at the disability resource fair. A service dog relief area is located __HERE HERE AND HERE__, while trash cans for animal-related matter can be found __HERE HERE AND HERE__. Feel free to stop by the welcome table for free poop bags, hand sanitizer, and dog biscuits.
                     </p>
                 </div>
             </div>
@@ -50,7 +50,7 @@ nav_order: 3
                 <div class="card-body">
                     <h3 class="card-title">Sensory Break Room</h3>
                     <p class="card-text">
-                        A sensory break room will be located in the library for anyone to use (both children and adults). This is a designated quiet break room that will have __DESCRIBE BREAK ROOM HERE fidget toys or ... __,  Signs will be posted at the event, and assistance locating these will also be provided upon request.
+                        A sensory break room will be located in the library for anyone to use (both children and adults). Responsible adult must remain with guests at all times. Please be respectful of other guests using this room. Signs will be posted at the event, and assistance locating these will also be provided upon request.
                     </p>
                 </div>
             </div>

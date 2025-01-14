@@ -13,9 +13,9 @@ nav_order: 10
     <a href="https://www.facebook.com/profile.php?id=61553120680095&sfnsn=wa&mibextid=RUbZ1f">
       <i class="fa-brands fa-square-facebook"></i>
     </a> <b>&middot;</b>
-    <a href="https://www.facebook.com/profile.php?id=61553120680095&sfnsn=wa&mibextid=RUbZ1f">
+    <!-- <a href="https://www.facebook.com/profile.php?id=61553120680095&sfnsn=wa&mibextid=RUbZ1f">
       <i class="fa-brands fa-instagram"></i>
-    </a> <b>&middot;</b>
+    </a> <b>&middot;</b> -->
     <a href="mailto:disabilityfair@gmail.com"><i class="fa-regular fa-envelope"></i></a>
   </h2>
 </div>
@@ -23,7 +23,7 @@ nav_order: 10
 <div class="vendor-buttons btn-toolbar justify-content-center my-2">
   <a href="/vendors" class="btn btn-primary">View Vendors</a>
   <a href="/vendor-information" class="btn btn-secondary">Vendor Registration</a>
-  <a href="/sponsor" class="btn btn-info">Sponsor Registration</a>
+  <a href="/sponsor-information" class="btn btn-info">Sponsor Registration</a>
 </div>
 
 <hr class="mt-0" />
@@ -41,7 +41,7 @@ nav_order: 10
         <li><b>What:</b> Disability related resources and information</li>
         <li><b>When:</b> Saturday, March 22, 2025 from 10am to 1pm</li>
         <li><b>Where:</b> Mechanicsburg Middle School <a href="https://maps.google.com/?q=1750 S Market St, Mechanicsburg, PA 17055">1750 S Market St, Mechanicsburg, PA 17055</a></li>
-        <li><b>Why:</b> Its a fun way to connect with your local community and learn about available resources!</li>
+        <li><b>Why:</b> It's a fun way to connect with your local community and learn about available resources!</li>
       </ul>
       <p>Still have questions? Want to volunteer? <a href="/contact-us">Contact us here</a></p>
     </div>

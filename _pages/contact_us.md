@@ -11,9 +11,6 @@ nav_order: 4
 <p>
   <b><i class='fa-solid fa-envelope'></i> Email </b><a href="mailto:disabilityfair@gmail.com"> disabilityfair@gmail.com</a>
 </p>
-<p>
-  <b><i class='fa-solid fa-phone'></i> Phone </b><a href="tel:3302679521">Google # Here</a>
-</p>
 <hr/>
 
 <h2>Contact Form</h2>
