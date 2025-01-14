@@ -19,7 +19,7 @@
         placeholder="Search">
     </div>
   </div>
-  <button type="submit" class="btn btn-primary m-2">Search</button></form>
+  <button type="button" class="btn btn-primary m-2">Search</button></form>
 
 {% comment %} SORT THEM {% endcomment %}
 {% assign sortedPosts = include.input_posts | sort: 'title' %}
@@ -86,11 +86,11 @@
         </div>
 
       {% comment %} {% if post.thumbnail %}
-                                                                                                                      <div class="col-sm-3">
-                                                                                                                        <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%"
-                                                                                                                          alt="image">
-                                                                                                                      </div>
-                                                                                        {% endif %} {% endcomment %}
+                                                                                                                                      <div class="col-sm-3">
+                                                                                                                                        <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%"
+                                                                                                                                          alt="image">
+                                                                                                                                      </div>
+                                                                                                    {% endif %} {% endcomment %}
       </div>
     </div>
   {% endfor %}

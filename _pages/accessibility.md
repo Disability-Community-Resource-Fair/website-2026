@@ -9,7 +9,7 @@ nav_order: 3
 <div class="post accessibility">
     <article class="post-content">
     <p>
-        We strive to ensure that everyone is able to explore the fair and find resources helpful to them. Below is some information on the accessibility features that have been put in place. If you don't see the information you are looking for or require additional accomodations, please reach out to us via our <a href="/contact">contact page</a>.
+        We strive to ensure that everyone is able to explore the fair and find resources helpful to them. Below is some information on the accessibility features that have been put in place. If you don't see the information you are looking for or require additional accomodations, please reach out to us via our <a href="/contact-us">contact page</a>.
     </p>
     <div class="card mb-3">
         <div class="row">
@@ -26,9 +26,9 @@ nav_order: 3
             </div>
         </div>
     </div>
-    <div class="card mb-3">
+    <!-- <div class="card mb-3">
         <div class="row">
-            <div class='col-sm-4 order-sm-12'>
+            <div class='col-sm-4'>
                 <img src="{{ 'dog.jpg' | prepend: '/assets/img/' | relative_url | bust_file_cache }}" alt="Service Dog Photo" style='width:100%'>
             </div>
             <div class="col-sm-8">
@@ -40,10 +40,10 @@ nav_order: 3
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="card mb-3">
         <div class="row">
-            <div class='col-sm-4'>
+            <div class='col-sm-4 order-sm-12'>
                 <img src="{{ 'break.jpg' | prepend: '/assets/img/' | relative_url | bust_file_cache }}" alt="Service Dog Photo" style='width:100%'>
             </div>
             <div class="col-sm-8">
@@ -56,9 +56,9 @@ nav_order: 3
             </div>
         </div>
     </div>
-    <div class="card mb-3">
+    <!-- <div class="card mb-3">
         <div class="row">
-            <div class='col-sm-4 order-sm-12'>
+            <div class='col-sm-4'>
                 <img src="{{ 'tshirt.jpg' | prepend: '/assets/img/' | relative_url | bust_file_cache }}" alt="Service Dog Photo" style='width:100%'>
             </div>
             <div class="col-sm-8">
@@ -69,7 +69,7 @@ nav_order: 3
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     As a reminder, you can sign up for email notifications <a href="/#Email">here</a>.
     </article>
 </div>

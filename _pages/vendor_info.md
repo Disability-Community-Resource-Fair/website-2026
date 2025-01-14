@@ -23,3 +23,5 @@ title: Information for Vendors
 - Event concludes at 1 p.m.
 
 \*\* If you are not able to open a Google Forms document to register, please let us know and we will send you an alternate Registration Form. \*\*
+
+If there are any questions, feel free to [contact us](/contact-us).
