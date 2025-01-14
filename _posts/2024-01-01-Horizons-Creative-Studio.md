@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Horizons Creative Studio 
-website: www.horizonscreativestudio.com
+website: horizonscreativestudio.com
 tags: Post_Secondary_(High_School_and_Beyond)
 categories: Social,_Recreational,_Fitness Transitioning_Youth_and_Adults
 address: 933 Kranzel Drive, Camp Hill, PA 17055
