@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Epilepsy Association of Western and Central PA (EAWCP)
-website: https://www.eawcp.org/
+website: eawcp.org/
 tags: Ages_Birth-3 Early_Intervention_(Ages_3-5) Elementary_(Grades_K-6) Secondary_(Grades_7-12) Post_Secondary_(High_School_and_Beyond)
 categories: Social,_Recreational,_Fitness Schools,_Educational_Programs,_Advocacy Camps
 address: 3507 Market Street, Suite 203, Camp Hill, PA 17011
