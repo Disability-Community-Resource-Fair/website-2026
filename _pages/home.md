@@ -18,8 +18,8 @@ nav_order: 10
 </div>
 
 <div class="vendor-buttons btn-toolbar justify-content-center my-2">
-  <a href="/vendors" class="btn btn-primary">View Vendors</a>
-  <a href="/vendor-information" class="btn btn-secondary">Vendor Registration</a>
+  <a href="/vendors" class="btn btn-primary">View Resources</a>
+  <a href="/vendor-information" class="btn btn-secondary">Resource Vendor Registration</a>
   <a href="/sponsor-information" class="btn btn-info">Sponsor Registration</a>
 </div>
 

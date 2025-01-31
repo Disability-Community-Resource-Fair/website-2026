@@ -2,8 +2,7 @@
 layout: page
 permalink: /accessibility/
 title: Event Accessibility
-nav: true
-nav_order: 3
+nav: false
 ---
 
 <div class="post accessibility">
