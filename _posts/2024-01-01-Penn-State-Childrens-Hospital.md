@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Penn State Health Children's Hospital - Pediatric Injury Prevention Program
-website: Pennstatehealth.org/pediatricinjuryprevention
+website: www.pennstatehealth.org/pediatricinjuryprevention
 tags: Ages_Birth-3 Early_Intervention_(Ages_3-5) Elementary_(Grades_K-6) Secondary_(Grades_7-12)
 categories: Accessibility,_Inclusion,_Safety,_Health
-address: 500 University Dr. Hershey, PA 17033
+address: 500 University Dr, Hershey, PA 17033
 phone_number: (717) 531-7233
 email: injuryprevention@pennstatehealth.psu.edu
 ---
