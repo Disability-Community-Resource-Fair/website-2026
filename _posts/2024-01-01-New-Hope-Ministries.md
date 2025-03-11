@@ -8,4 +8,4 @@ address: 99 West Church St, Dillsburg, PA 17019
 phone_number: (717) 582-1017
 email: cbenson@nhm-pa.net
 ---
-New Hope Ministries is a Christian social service agency that shows the love and hope of Christ by serving our neighbors in times of need and supporting their efforts toward stability. We serve Cumberland ,Adams, and York County.
+New Hope Ministries is a Christian social service agency that shows the love and hope of Christ by serving our neighbors in times of need and supporting their efforts toward stability. We serve Cumberland, Adams, and York County.
